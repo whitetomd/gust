@@ -1,0 +1,50 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 40%;
+    margin: auto;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+#navtop {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#navtop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navtop li {
+    display: inline;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#navtop a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+    background-color: #777;
+    color: whitesmoke;
+    min-width: 8em;
+}
+
+#navtop a:hover {
+    opacity: .5;
+}
+
+.status {
+    color: green;
+}
+
+.status-error {
+    font-weight: bold;
+    color: red;
+}

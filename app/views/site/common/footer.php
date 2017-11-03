@@ -1,0 +1,1 @@
+<em>&copy; Thomas D. White, 2017-18</em>

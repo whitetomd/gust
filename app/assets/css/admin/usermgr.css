@@ -1,0 +1,37 @@
+.usertable-view {
+    width: 100%;
+}
+
+.usertable-view td, th {
+    border: #ccc solid 1px;
+    padding: 2px;
+}
+
+.usertable-view th a {
+    display: inline-block;
+    width: 100%;
+    color: #555;
+    text-decoration: none;
+    background-color: #ccc;
+}
+
+.usertable-view th a:before {
+    content: "\00a0 ";
+}
+
+.usertable-view th a:after {
+    content: "\00a0 ";
+}
+
+.usertable-view th a:hover {
+    opacity: .5;
+}
+
+.lnk-delete {
+    text-decoration: none;
+    color: red;
+}
+
+.lnk-edit {
+    color: #888;
+}

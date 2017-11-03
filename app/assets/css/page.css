@@ -1,0 +1,38 @@
+body {
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+#navtop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navtop li {
+    display: inline;
+}
+
+#navtop a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+    background-color: #ccc;
+    color: #333;
+    min-width: 8em;
+}
+
+#navtop a:hover {
+    opacity: .5;
+    color: whitesmoke;
+}
+
+.status {
+    color: green;
+}
+
+.status-error {
+    font-weight: bold;
+    color: #cc0000;
+}
