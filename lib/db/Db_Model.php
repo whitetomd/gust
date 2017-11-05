@@ -27,6 +27,11 @@ abstract class Db_Model extends DataStruct {
         return $this->$idkey;
     }
     
+    function setId($id) {
+        $idkey = $this->getIdKey();
+        $this->$idkey = $id;
+    }    
+    
     function createTable() {                
         $db = $this->getDb();
         $db->createTable($this->getTableName(), $this->getFieldData());
